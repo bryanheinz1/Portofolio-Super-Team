@@ -2,199 +2,201 @@
 <html lang="id">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio | [Nama Anda]</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Jonathan Marvell</title>
 
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #e9ecef;
-      color: #343a40;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            color: #343a40;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    .container {
-      width: 90%;
-      max-width: 800px;
-      margin: 30px auto;
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
 
-    header {
-      text-align: center;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #007bff;
-      margin-bottom: 30px;
-    }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            margin-bottom: 30px;
+        }
 
-    header h1 {
-      color: #007bff;
-      margin: 0;
-      font-size: 2.5em;
-    }
+        header h1 {
+            color: #007bff;
+            margin: 0;
+            font-size: 2.5em;
+        }
 
-    .back-link {
-      display: block;
-      margin-bottom: 15px;
-      text-decoration: none;
-      color: #6c757d;
-      font-weight: bold;
-    }
+        .back-link {
+            display: block;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: #6c757d;
+            font-weight: bold;
+        }
 
-    /* Bagian Profil */
-    .profile-section {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 40px;
-      padding: 20px;
-      border: 1px solid #dee2e6;
-      border-radius: 8px;
-    }
+        /* Bagian Profil */
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+        }
 
-    .profile-photo {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 5px solid #007bff;
-      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-    }
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
 
-    .info-details h2 {
-      margin-top: 0;
-      font-size: 2em;
-    }
+        .info-details h2 {
+            margin-top: 0;
+            font-size: 2em;
+        }
 
-    .info-details .role {
-      color: #6c757d;
-      font-style: italic;
-    }
+        .info-details .role {
+            color: #6c757d;
+            font-style: italic;
+        }
 
-    /* Bagian Hobi & Keahlian */
-    section {
-      margin-bottom: 30px;
-      padding: 20px;
-      background-color: #f8f9fa;
-      border-radius: 8px;
-    }
+        /* Bagian Hobi & Keahlian */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
 
-    section h2 {
-      color: #28a745;
-      border-bottom: 2px solid #28a745;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-    }
+        section h2 {
+            color: #28a745;
+            border-bottom: 2px solid #28a745;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    ul li {
-      background: white;
-      padding: 10px;
-      margin-bottom: 8px;
-      border-radius: 5px;
-      border-left: 5px solid #ffc107;
-    }
+        ul li {
+            background: white;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            border-left: 5px solid #ffc107;
+        }
 
-    .skills h3 {
-      color: #007bff;
-      margin-top: 20px;
-      border-bottom: 1px dotted #007bff;
-      padding-bottom: 3px;
-    }
+        .skills h3 {
+            color: #007bff;
+            margin-top: 20px;
+            border-bottom: 1px dotted #007bff;
+            padding-bottom: 3px;
+        }
 
-    .skills li {
-      border-left: 5px solid #007bff;
-    }
+        .skills li {
+            border-left: 5px solid #007bff;
+        }
 
-    .skills strong {
-      font-weight: bold;
-    }
+        .skills strong {
+            font-weight: bold;
+        }
 
-    .activity img {
-      width: 250px;
-      border-radius: 8px;
-      margin-top: 10px;
-    }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            border-top: 1px solid #dee2e6;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
 
-    footer {
-      text-align: center;
-      padding: 20px 0;
-      margin-top: 40px;
-      border-top: 1px solid #dee2e6;
-      font-size: 0.9em;
-      color: #6c757d;
-    }
-  </style>
+         .activity img {
+            width: 250px; 
+            border-radius: 8px; 
+            margin-top: 10px;  
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <a href="index.html" class="back-link">← Kembali ke Daftar Anggota</a>
-      <h1>Portofolio Anggota Tim</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Portofolio Super Tim</h1>
+        </header>
 
-    <main>
-      <section class="profile-section">
-        <img src="images/foto-diri-atau-lucu.jpg" alt="Foto Diri atau Avatar Lucu" class="profile-photo">
+        <main>
+            <section class="profile-section">
+                <img src="hogrider.jpg" alt="Foto Diri atau Avatar Lucu" class="profile-photo">
 
-        <div class="info-details">
-          <h2>[Nama Lengkap Anda]</h2>
-          <p class="role">Peran di Proyek: [Contoh: Backend Developer, UI/UX Designer]</p>
-        </div>
-      </section>
+                <div class="info-details">
+                    <h2>Jonathan Marvell</h2>
+                </div>
+            </section>
 
-      <section class="hobbies">
-        <h2>Hobi</h2>
-        <ul>
-          <li>[Hobi 1: Contoh: Fotografi]</li>
-          <li>[Hobi 2: Contoh: Bermain Musik]</li>
-          <li>[Hobi 3: Contoh: Coding di akhir pekan]</li>
-        </ul>
-      </section>
+            <section class="hobbies">
+                <h2>Hobi</h2>
+                <ul>
+                    <li>Bermain game</li>
+                    <li>Mendengarkan musik</li>
+                    <li>Tidur</li>
+                </ul>
+            </section>
 
-      <section class="skills">
-        <h2>Keahlian</h2>
+            <section class="skills">
+                <h2>Keahlian</h2>
 
-        <h3>Bahasa Pemrograman</h3>
-        <ul>
-          <li><strong>[Contoh: Python]</strong>: Mahir dalam analisis data dan skrip otomatisasi.</li>
-          <li><strong>[Contoh: JavaScript]</strong>: Familiar dengan sintaks modern (ES6+).</li>
-        </ul>
+                <h3>Bahasa Pemrograman</h3>
+                <ul>
+                    <li><strong>Java</strong>: Mahir dalam solving problem.</li>
+                    <li><strong>JavaScript</strong>: Familiar dengan sintaks modern (ES6+).</li>
+                    <li><strong>HTML</strong>: Mahir dalam pembuatan frontend.</li>
+                    <li><strong>CSS</strong>: Mahir dalam design suatu web.</li>
+                </ul>
 
-        <h3>Framework & Tools</h3>
-        <ul>
-          <li><strong>[Contoh: React]</strong>: Dasar-dasar komponen fungsional dan Hooks.</li>
-          <li><strong>[Contoh: Laravel]</strong>: Membuat API sederhana dan migrasi database.</li>
-          <li><strong>[Contoh: Git/GitHub]</strong>: Mahir dalam *branching*, *merging*, dan *pull request*.</li>
-          <li><strong>[Contoh: Figma]</strong>: Membuat wireframe dan prototipe dasar.</li>
-        </ul>
-      </section>
-      <section class="activity">
-        <h2>Activity</h2>
-        <ul>
-          <li><strong>Coding</strong> : Mengerjakan tugas Manpro <br> <img src="/IMG_7134.png" alt=""></li>
-        </ul>
-      </section>
-    </main>
+                <h3>Framework & Tools</h3>
+                <ul>
+                    <li><strong>NodeJS</strong>: Dasar-dasar komponen fungsional.</li>
+                    <li><strong>Gradle</strong>: Familiar dengan sintaks yang ada.</li>
+                    <li><strong>Git/GitHub</strong>: Mahir dalam *branching*, *merging*, dan *pull request*.</li>
+                    <li><strong>Figma</strong>: Membuat *wireframe* dan prototipe dasar.</li>
+                </ul>
+            </section>
+            <section class="activity">
+                <h2>Activity</h2>
+                <ul>
+                    <li><strong>Coding</strong> : Mengerjakan tugas Manpro <br> <img src="aktifitasCoding.jpg" alt=""></li>
+                </ul>
+            </section>
+        </main>
 
-    <footer>
-      <p>Dibuat oleh [Nama Anda] | Hubungi: [Email atau Tautan Sosial Media]</p>
-    </footer>
-  </div>
+        <footer>
+            <p>Dibuat oleh Jonathan Marvell | Hubungi: 618231016@student.unpar.ac.id</p>
+        </footer>
+
+
+    </div>
 </body>
 
 </html>
